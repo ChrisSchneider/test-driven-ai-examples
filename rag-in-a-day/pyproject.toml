@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rag-in-a-day"
+version = "0.1.0"
+description = "Demonstrates how to create a RAG chat app with test-driven development"
+authors = ["Chris Schneider"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+streamlit = "^1.29.0"
+ibm-watson-machine-learning = "^1.0.339"
+pydantic = "^2.5.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+playwright = "^1.40.0"
+
